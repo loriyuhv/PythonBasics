@@ -47,6 +47,7 @@ def outer(x):
     return inner
 '''
 
+
 # 通过参数给函数传值
 '''
 def sum(x, y):
@@ -73,6 +74,7 @@ def outer(x, y):
 f = outer(1, 2)
 print(f())
 '''
+
 
 # 案例
 '''
