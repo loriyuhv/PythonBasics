@@ -9,12 +9,12 @@ def auth(engine='file'):
             if engine == "file":
                 if current_userinfo['user']:
                     return func(*args, **kwargs)
-                user = input('Please input yor username:')
+                username = input('Please input yor username:')
                 pwd = input("Please input your password:")
-                if user == 'loriyuhv' and pwd == '123':
+                if username == 'Jerry' and pwd == '123':
                     print("login successful!")
                     # 保存登录状态
-                    current_userinfo['user'] = user
+                    current_userinfo['user'] = username
                     res = func(*args, **kwargs)
                     return res
                 else:
