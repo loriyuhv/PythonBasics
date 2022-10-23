@@ -76,6 +76,7 @@ class Teacher:
 
 
 # 示例2：基于继承解决类与类之间的冗余问题
+"""
 class OldboyPeople:
     school = "OldBoy"
 
@@ -124,6 +125,9 @@ tea_obj = Teacher("Tom", 26, "female", 3200, 8)
 print(tea_obj.__dict__)
 print(tea_obj.school)
 tea_obj.score()
+"""
+
+
 
 
 
