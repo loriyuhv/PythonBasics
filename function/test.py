@@ -393,12 +393,177 @@
 # def bar():
 #     return foo
 
-import math
-a = int(input("请输入三角形的第一条边："))
-b = int(input("请输入三角形的第二条边："))
-c = int(input("请输入三角形的第三条边："))
-s = 1/2*(a+b+c)
-area = math.sqrt(s*(s-a)*(s-b)*(s-c))
-print("此三角形的面积为:", area)
+# import math
+# a = int(input("请输入三角形的第一条边："))
+# b = int(input("请输入三角形的第二条边："))
+# c = int(input("请输入三角形的第三条边："))
+# s = 1/2*(a+b+c)
+# area = math.sqrt(s*(s-a)*(s-b)*(s-c))
+# print("此三角形的面积为:", area)
+
+# import pymssql
+# conn = pymssql.connect(host='localhost', server='LAPTOP-5GSM1609', port='61647', user='loriyuhv', password='@wsw0420', database='Student')
+# if conn:
+#     print("连接成功!")
+# conn.close()
+
+# import pymssql
+#
+# # 连接数据库
+# sql = pymssql.connect(host='localhost',
+#                       server='LAPTOP-5GSM1609',
+#                       port='61647',
+#                       user='loriyuhv',
+#                       password='@wsw0420',
+#                       database='Student')
+# cur = sql.cursor()
+#
+# # 查询student表
+# cur.execute("Select * from Student")
+# # cur.execute("Insert Into Student(SName, Phone, Address) Values('帅庆庆','180794239866','宜春')")
+# # cur.execute("Create Database Book")
+#
+#
+# # 提交事务
+# sql.commit()
+#
+# # 关闭数据库
+# sql.close()
+#
+# # // 向 student 表中插入
+# # cur.execute("insert into student VALUES ('小李', '男', '三年级')")
+
+# a = 3
+# b = -5
+# c = 8
+# a = b
+# b = c
+# print(a, b, c)
+
+
+# print("-" * 40)
+# print("姓名：王师维")
+# print("职业：学生")
+# print("住址：江西省南昌市红谷滩新区阁皂山大道998号。")
+# print("-" * 40)
+
+
+
+
+# a = 3
+# b = -5
+# c = 8
+# a = b
+# b = c
+# c = a
+# print(a, b, c)
+
+# a = 1
+# b = 3
+# a = a+b
+# b = a-b
+# print(a, b)
+# a = 10
+# b = 4
+# c = a+b
+# a = b+c
+# b = a+c
+# c = a+b+c
+# print(a, b, c)
+"""
+a = 12
+b = 45
+c = b % 10*1000 + a//10*100 + b//10*10 + a % 10
+print(c)
+"""
+# name = str(input("请输入学生姓名："))
+# number = str(input("请输入学生学号："))
+# sex = str(input("请输入学生性别："))
+# age = int(input("请输入学生年龄："))
+# high = float(input("请输入学生身高："))
+# weight = float(input("请输入学生体重："))
+# print("-"*40)
+# print("姓名：%s\n学号：%s\n性别：%s\n年龄：%d\n身高：%.2f\n体重：%.2f"
+#       % (name, number, sex, age, high, weight))
+# print("-"*40)
+
+# name = str(input("请输入用户姓名："))
+# age = int(input("请输入用户年龄："))
+# address = str(input("请输入用户地址："))
+# print("姓名：%s\n"
+#       "年龄：%d\n"
+#       "地址：%s\n"
+#       % (name, age, address))
+
+# price = float(input("请输入商品的单价："))
+# number = int(input("请输入商品的数量："))
+# print("商品的总价是%.2f元。" % (price * number))
+
+# i = 10
+# j = 4
+# if i > j:
+#     pass
+# print("成立")
+# a, b, c = 1, 2, 3
+# if a > b:
+#     if a > c:
+#         b = a
+#     else:
+#         b = c
+# elif b < c:
+#     b = c
+# print(b)
+
+# a = int(input("请输入第一个数："))
+# b = int(input("请输入第二个数："))
+# if a > b:
+#     print("两个数中最小的数是：%d" % b)
+# else:
+#     print("两个数中最小的数是：%d" % a)
+
+
+# a = int(input("请输入第一个数："))
+# b = int(input("请输入第二个数："))
+# c = int(input("请输入第三个数："))
+#
+# if a > b:
+#     if a > c:
+#         print("三个数中最大的数是：%d" % a)
+#     else:
+#         print("三个数中最大的数是：%d" % c)
+# elif b > c:
+#     print("三个数中最大的数是：%d" % b)
+# else:
+#     print("三个数中最大的数是：%d" % c)
+
+
+# a = int(input("请输入第一个数："))
+# b = int(input("请输入第二个数："))
+# c = int(input("请输入第三个数："))
+#
+# if a < b:
+#     a, b = b, a
+# if a < c:
+#     a, c = c, a
+# if b < c:
+#     b, c = c, b
+#
+# print("三个数从小到大排序：%d %d %d" % (c, b, a))
+
+# a = float(input("请输入第一个数："))
+# b = float(input("请输入第二个数："))
+# c = float(input("请输入第三个数："))
+# if a < b < c:
+#     print(a, b, c)
+# elif a < c < b:
+#     print(a, c, b)
+# elif b < a < c:
+#     print(b, a, c)
+# elif b < c < a:
+#     print(b, c, a)
+# elif c < a < b:
+#     print(c, a, b)
+# else:
+#     print(c, b, a)
 
 
